@@ -1,0 +1,3 @@
+1. Make a healt-check server that periodically re-checks health of each container
+2. Allocate a Volume to Each container with creating
+3. Feature for automatic shutting down of the containers, so as to save compute. Enable cold-starts

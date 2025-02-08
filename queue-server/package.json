@@ -1,0 +1,22 @@
+{
+  "name": "queue-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "tsc -b . && node dist/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/express": "^5.0.0",
+    "axios": "^1.7.9",
+    "bull": "^4.16.5",
+    "crypto": "^1.0.1",
+    "dotenv": "^16.4.7",
+    "mongoose": "^8.10.0",
+    "node-docker-api": "^1.1.22"
+  }
+}
