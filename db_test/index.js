@@ -1,7 +1,7 @@
 const express = require('express');
 const mongoose = require('mongoose');
 
-MONGO_URI = "mongodb://Mehul:dcbfaafa5ab9@localhost:30005"
+MONGO_URI = "MONGO_URI"
 
 
 mongoose.connect(MONGO_URI).then(()=>{
